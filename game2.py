@@ -17,7 +17,7 @@ bigfont = pygame.font.Font(None, 80)
 smallfont = pygame.font.Font(None, 45)
 
 def iniciar_jogo():
-    text = bigfont.render('Começar jogo', 13, (0, 0, 0))
+    text = bigfont.render('Play', 13, (0, 0, 0))
     textx = SCREEN_WIDTH / 2 - text.get_width() / 2
     texty = SCREEN_HEIGHT / 2 - text.get_height() / 2
     textx_size = text.get_width()
