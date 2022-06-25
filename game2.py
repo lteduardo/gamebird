@@ -2,6 +2,11 @@ import pygame
 import os
 import random
 import pygame
+nome = input('Nome: ')
+email = input('Email: ')
+log = open('imgs/log.txt','a')
+log.write(f'Nome: {nome}\nEmail: {email}\n')
+log.close()
 pygame.init()
 
 SCREEN_WIDTH = 400
